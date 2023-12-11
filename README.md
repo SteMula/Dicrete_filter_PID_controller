@@ -1,3 +1,6 @@
+# Compile
+To run the code just open a new terminal and run "compile.sh" and everything will be executed and plotted.
+
 # Report
 
 The following report provides an overview and explanation of the code provided.
