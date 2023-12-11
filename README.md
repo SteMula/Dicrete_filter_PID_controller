@@ -1,4 +1,4 @@
-Take-home Assignment on Implementing a Controller
+Implementing a Controller
 =================================================
 
 ## 📔 Assignment
