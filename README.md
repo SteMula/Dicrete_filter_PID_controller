@@ -250,7 +250,6 @@ The report provides an overview of a C++ code implementing a control system usin
 
 ## Code updates 
 ### change #1
-As suggested by Dr. Niscolò Genesio "Better using constexpr than const". So the following modification are presented.
 ```
 const double kp[] = {10.0, 15.0, 15.0, 10.0, 15.0}; 
 const double ki[] = {1.0 , 1.0 , 0.1 , 0.1 , 0.1 };   
@@ -275,7 +274,7 @@ __Safer Array Initialization__: The second code utilizes brace initialization ({
 __Integration with Modern C++ Features: std::array__ is part of the modern C++ Standard Library and supports features introduced in newer C++ versions, such as range-based for loops and auto type deduction. It allows the code to leverage these modern language features, resulting in cleaner and more expressive cod
 
 ### change #2
-Another modificatio is the following
+It is better using constexpr than const. So the following modification are presented.
 ```
  const double K = 1.0;
  const double Ts = 0.01;
